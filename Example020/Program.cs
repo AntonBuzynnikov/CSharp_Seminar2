@@ -1,4 +1,5 @@
-﻿System.Console.Write("Введите число: ");
+﻿// 20. Дано число. Проверить кратно ли оно 7 и 23
+System.Console.Write("Введите число: ");
 int a = Int32.Parse(Console.ReadLine());
 bool b1 = a%7 == 0;
 bool b2 = a%23 == 0;
